@@ -61,7 +61,7 @@ SSAFY 비전공 Python 트랙에서 웹 개발과 문제 해결 역량을 집중
 - DRF(REST API Basic)
 - AI 기초 (토큰화 · 임베딩 · RAG 구조 이해)
 - Java 기본 문법 및 서버 기초
-- Vue.js (진행 중)
+- Vue.js
 
 **문제 해결 능력**
 - 삼성 SW 역량평가 A형 취득
