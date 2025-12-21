@@ -12,15 +12,18 @@ Python · Django 기반 웹 개발을 중심으로 성장하고 있습니다.
 **Backend**
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
+<img src="https://img.shields.io/badge/DRF-CC0000?style=flat-square&logo=django&logoColor=white"/>
 <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
 
 **Database**
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 
 **Web**
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 
 **Tools**
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
@@ -32,58 +35,63 @@ Python · Django 기반 웹 개발을 중심으로 성장하고 있습니다.
 
 ## 📌 Projects
 
-### Finbot – 금융상품 추천·챗봇 기반 웹 서비스 (6인 팀 프로젝트)
-Django 기반 웹 서비스로, 사용자 인증 · 금융상품 북마크 · 챗봇 연동 기능을 담당했습니다.
+### LedgerLite – 전표/계정과목 관리 미니 REST API (개인 프로젝트)
+**Spring Boot로 “회계 규칙을 코드로 보장”하는 API를 구현했습니다.**  
+Repo: https://github.com/kg0726/ledger-lite
 
-**담당 기능**
-- Django 세션 기반 로그인/인증 처리
-- 개인정보 수정 / 계정 삭제 시 비밀번호 재확인 로직 구현
-- 금융상품 북마크 기능 (ManyToMany)
-- 팀원이 구현한 AI 챗봇 로직을 Django 서비스 흐름에 맞게 연동
-- 데이터 흐름 및 API 명세 정리
+**핵심 구현**
+- 전표 핵심 규칙 **차변합 = 대변합** 서비스 레이어 검증
+- 예외를 **400/404/409**로 구분하고 표준 JSON 응답으로 정리
+- Controller → Service → Repository → DB 흐름을 **MockMvc 통합 테스트 10건(0 failures)**로 검증
 
-**얻은 경험**
-- 서비스 흐름을 고려한 기능 분해 및 설계
-- 타인의 코드를 분석하고 서비스 구조에 맞게 재구성하는 능력
-- 프론트엔드 협업을 위한 구조 정리 및 문서화 경험
+**내가 강조하고 싶은 포인트**
+- “동작하는 API”에서 멈추지 않고, **업무 규칙(정합성)을 코드로 보장**하는 설계를 경험했습니다.
 
 ---
-### JejuDoldam - AI 기반의 제주도 여행 경로 추천 서비스(2인 팀 프로젝트)
-- 개발중
 
-## 📚 SSAFY Training 
+### JejuDoldam – AI 기반 제주도 여행 경로 추천 서비스 (2인 팀 프로젝트)
+**2인 팀(본인: 백엔드+프론트 연동 / 팀원: AI)**  
+Repo: https://github.com/ae-tin/JejuDoldam
 
+**구현(백엔드 API 중심)**
+- JWT 기반 인증(회원가입/로그인/재발급/내 정보)
+- 여행 루트(Route) / 일차(Day) / 장소(Place) CRUD
+- 추천 루트 생성 → 편집 → 확정 저장(recommend → confirm) 플로우
+- 커뮤니티: 게시글/댓글/좋아요, 목록에서 like_count/comment_count 제공
+- 카카오 장소 검색 연동(검색 결과 반환)
+
+**내 역할**
+- API 설계/구현 및 프론트(Vue) 연동을 통해 “사용 흐름” 기준으로 기능을 끝까지 완성하는 데 집중했습니다.
+
+---
+
+### Finbot – 금융상품 추천·챗봇 기반 웹 서비스 (6인 팀 프로젝트)
+- 사용자 인증/북마크/챗봇 흐름 연동 및 문서화 경험
+
+---
+
+## 📚 SSAFY Training
 SSAFY 비전공 Python 트랙에서 웹 개발과 문제 해결 역량을 집중적으로 학습했습니다.
 
-**학습한 내용**
 - Python / 자료구조 / 알고리즘
-- Django MVC 웹 개발
-- HTML / CSS / JavaScript
-- MySQL, ORM
-- DRF(REST API Basic)
-- AI 기초 (토큰화 · 임베딩 · RAG 구조 이해)
-- Java 기본 문법 및 서버 기초
-- Vue.js
+- Django / DRF(REST API 기본)
+- HTML / CSS / JavaScript / Vue.js
+- MySQL / ORM
+- Java 기본 문법, Spring Boot 기초 학습 및 미니 프로젝트 적용
 
-**문제 해결 능력**
-- 삼성 SW 역량평가 A형 취득
-- 알고리즘 문제를 통한 논리적 사고와 디버깅 능력 강화  
-- print 기반 흐름 추적을 통한 로직 분석 습관 형성
+**문제 해결 역량**
+- SW 역량평가(알고리즘) A형 취득
+- 조건/엣지케이스 점검, 재현 가능한 디버깅 습관
 
 ---
 
 ## 🧩 Work Attitude
-
-- 맡은 업무는 끝까지 해결하는 성향  
-- 반복 작업에서도 정확성과 책임감 유지  
-- 협업 시 필요한 정보 공유와 문서화를 중시  
-
-이러한 경험은 개발 과정에서도 문제 해결과 서비스 안정성을 우선으로 삼는 태도로 이어지고 있습니다.
+- “규칙/제약”을 코드로 보장하려는 성향(정합성·검증·예외 분기)
+- 협업에서는 필요한 정보를 빠르게 정리하고 공유하는 편
+- 맡은 기능은 끝까지 연결(요청 → 처리 → 응답 → 테스트/검증)
 
 ---
 
 ## 📫 Contact
-
 Email : kjmin065999@naver.com  
-GitHub : https://github.com/kg0726  
-
+GitHub : https://github.com/kg0726
