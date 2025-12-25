@@ -59,11 +59,7 @@ Repo: https://github.com/ae-tin/JejuDoldam
 - 추천 루트 생성 → 편집 → 확정 저장(recommend → confirm) 플로우
 - 커뮤니티: 게시글/댓글/좋아요, 목록에서 like_count/comment_count 제공
 - 카카오 장소 검색 연동(검색 결과 반환)
-
-**내 역할**
-- API 설계/구현 및 프론트(Vue) 연동을 통해 “사용 흐름” 기준으로 기능을 끝까지 완성하는 데 집중했습니다.
-
----
+- 카카오 API 기반 OAuth 구현
 
 ### Finbot – 금융상품 추천·챗봇 기반 웹 서비스 (6인 팀 프로젝트)
 - 사용자 인증/북마크/챗봇 흐름 연동 및 문서화 경험
