@@ -1,8 +1,8 @@
 <div align="center">
 
 # 김종민
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=rlawhdals33)](https://solved.ac/rlawhdals33/)
 
-기본기를 중요하게 생각하며, 명확한 구조 이해와 문제 해결에 집중합니다.<br>
 삼성 청년 SW/AI 아카데미(SSAFY) 2025-07 ~ 현재  
 ---
 
