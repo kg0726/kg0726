@@ -16,6 +16,7 @@
     <td>
       <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white"/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
     </td>
   </tr>
   <tr>
@@ -24,6 +25,7 @@
       <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white"/>
       <img src="https://img.shields.io/badge/WebFlux-6DB33F?style=flat&logo=spring&logoColor=white"/>
       <img src="https://img.shields.io/badge/WebSocket-010101?style=flat"/>
+      <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white"/>
       <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"/>
     </td>
   </tr>
