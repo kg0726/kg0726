@@ -79,6 +79,9 @@
 
 ---
 
+### 기타 학습용 프로젝트
+- Ladger-Lite: Java 및 Spring을 학습하며 회계 비즈니스 로직 구현 (https://github.com/kg0726/ledger-lite#how-to-run)
+
 ## 🎓 Experience
 
 | 기간 | 내용 |
