@@ -62,7 +62,7 @@
 - WebSocket/HTTP 동시 실행 **Race Condition**을 **Redis TTL 락**으로 해결 — 데이터 무결성 확보 및 서버 장애 시 자동 해제 보장
 
 🏆 삼성 SSAFY 프로젝트 우수상  
-👉 [프로젝트 레포 링크] · [팀 노션 / 발표 자료 링크]
+👉 자세히 보기: https://github.com/kg0726/the_interview
 
 ---
 
@@ -75,7 +75,7 @@
 - **CompletableFuture 커스텀 ExecutorService**로 외부 AI API 40건 병렬 처리 — ForkJoinPool 공유 사이드이펙트 방지를 위해 전용 풀 격리, 응답시간 **60s → 6s** 단축
 - **Schema-First + ddl-auto validate** 도입 주도 — 팀 전체 스키마 불일치로 인한 빌드 실패율 **0%** 달성
 
-👉 [프로젝트 레포 링크] · [팀 노션 / 발표 자료 링크]
+👉자세히 보기: https://github.com/kg0726/welly
 
 ---
 
