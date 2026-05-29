@@ -4,7 +4,7 @@
 
 - 🎓 Samsung SSAFY 14기 · 삼성 SW 역량평가 A형
 - ⚙️ Java / Spring Boot 기반 백엔드 개발자를 목표로 공부하고 있습니다
-- 🏆 SSAFY 우수 프로젝트 수상 (The Interview)
+- 🏆 SSAFY 우수 프로젝트 수상 2회
 
 ---
 
