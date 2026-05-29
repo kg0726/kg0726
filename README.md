@@ -57,7 +57,7 @@
 > 2026.02 – 2026.03 · 5인 팀 · 백엔드 담당  
 > `Spring Boot` `Spring WebFlux` `WebSocket(STOMP)` `Redis` `PostgreSQL` `FastAPI` `AWS` `Docker` `Jenkins`
 
-- **Redis Sorted Set + Mono.zip() 병렬화**로 비동기 STT 순서 보장 및 청크 선행 처리 구현 — STT 대기 **2500ms → 1000ms**, 전체 응답 **5.5초 → 4초** 단축 (BE 단독 기여)
+- **Redis Sorted Set + Mono.zip() 병렬화**로 비동기 STT 순서 보장 및 청크 선행 처리 구현 — STT 대기 **2500ms → 1000ms**, 전체 응답 **5.5초 → 4초** 단축
 - **Facade 패턴**으로 트랜잭션 경계 분리, AI 호출 구간 DB 커넥션 점유 제거 — Spring @Transactional AOP 프록시 내부 호출 문제를 구조적으로 해소
 - WebSocket/HTTP 동시 실행 **Race Condition**을 **Redis TTL 락**으로 해결 — 데이터 무결성 확보 및 서버 장애 시 자동 해제 보장
 
