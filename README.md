@@ -99,6 +99,10 @@
 
 ---
 
+## 🎓 Now Learning
+
+- 정보처리기사 실기
+
 ## 📊 Stats
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=rlawhdals33)](https://solved.ac/rlawhdals33/)
