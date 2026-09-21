@@ -101,7 +101,7 @@
 
 ## 🎓 Now Learning
 
-- 정보처리기사 실기
+- Java/Spring 비동기 모델 딥다이브: @Async vs CompletableFuture vs WebClient (JVM → Kernel)
 
 ## 📊 Stats
 
